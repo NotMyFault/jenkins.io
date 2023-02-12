@@ -6,16 +6,16 @@ logo: /images/user.svg
 tags:
 - hardware
 - eda
-leads:
-- "oleg_nenashev"
-- "martinda"
-participants:
+#leads:
+#- "oleg_nenashev"
+#- "martinda"
 
-links:
-  gitter: jenkinsci/hw-and-eda-sig
-  meetings: "/sigs/hw-and-eda/#meetings"
+#links:
+#  gitter: jenkinsci/hw-and-eda-sig
+#  meetings: "/sigs/hw-and-eda/#meetings"
 
 overview: >
+  This SIG is currently inactive!
   This special interest group of Jenkins users and practitioners
   focuses on Electronic Design Automation (EDA) with Jenkins,
   and on any aspects of running CI/CD flows with hardware in the loop.

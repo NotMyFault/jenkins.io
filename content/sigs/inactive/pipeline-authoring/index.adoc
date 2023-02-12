@@ -7,38 +7,40 @@ logo: /images/user.svg
 tags:
 - pipeline
 - authoring
-leads:
-- "lnewman"
-participants:
-- "awitt"
-- "oleg_nenashev"
-- "dwnusbaum"
-- "linuxsuren"
-- "xaseron"
-- "robpickerill"
-- "x10an14"
-- "svanoort"
-- "dchwalisz"
-- "jonbrohauge"
-- "crasp"
-- "ferratello"
-- "steven-terrana"
+#leads:
+#- "lnewman"
+#participants:
+#- "awitt"
+#- "oleg_nenashev"
+#- "dwnusbaum"
+#- "linuxsuren"
+#- "xaseron"
+#- "robpickerill"
+#- "x10an14"
+#- "svanoort"
+#- "dchwalisz"
+#- "jonbrohauge"
+#- "crasp"
+#- "ferratello"
+#- "steven-terrana"
 
-organizations:
-- name: "Anchore"
-  github: "anchore"
-- name: "Booz Allen Hamilton"
-  github: "boozallen"
-- name: "CloudBees"
-  github: "cloudbees"
+#organizations:
+#- name: "Anchore"
+#  github: "anchore"
+#- name: "Booz Allen Hamilton"
+#  github: "boozallen"
+# name: "CloudBees"
+#  github: "cloudbees"
 
 
-links:
-  gitter: jenkinsci/pipeline-authoring-sig
-  googlegroup: jenkins-pipeline-authoring-sig
-  meetings: "/sigs/pipeline-authoring/#meetings"
+#links:
+#  gitter: jenkinsci/pipeline-authoring-sig
+#  googlegroup: jenkins-pipeline-authoring-sig
+#  meetings: "/sigs/pipeline-authoring/#meetings"
 
 overview: >
+  This SIG is currently inactive!
+
   This special interest group aims to improve and curate the
   experience of authoring Jenkins Pipelines. This includes the syntax
   of `Jenkinsfile`s and shared libraries, code sharing and reuse,

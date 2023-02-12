@@ -11,21 +11,21 @@ tags:
 - localization
 - chinese-localization
 - chinese-localization-sig
-leads:
-- "linuxsuren"
-participants:
-- "shenyu_zheng"
-- "xuesea"
-- "node"
-- "donhui"
-organizations:
-- name: "Alauda"
-  github: "alauda"
+#leads:
+#- "linuxsuren"
+#participants:
+#- "shenyu_zheng"
+#- "xuesea"
+#- "node"
+#- "donhui"
+#organizations:
+#- name: "Alauda"
+#  github: "alauda"
 
-links:
-  gitter: jenkinsci/chinese-localization-sig
-  googlegroup: jenkins-chinese-localization-sig
-  meetings: "/sigs/chinese-localization/#meetings"
+#links:
+#  gitter: jenkinsci/chinese-localization-sig
+#  googlegroup: jenkins-chinese-localization-sig
+#  meetings: "/sigs/chinese-localization/#meetings"
 
 overview: >
   The Chinese Localization group of contributors and collaborators focuses on

@@ -17,27 +17,30 @@ tags:
 - cloud-native-sig
 - configuration-as-code
 - jcasc
-participants:
-- "garethjevans"
-- "waveywaves"
-- "salaboy"
-- "jstrachan"
-- "oleg_nenashev"
-- "olblak"
-- "batmat"
+#participants:
+#- "garethjevans"
+#- "waveywaves"
+#- "salaboy"
+#- "jstrachan"
+#- "oleg_nenashev"
+#- "olblak"
+#- "batmat"
 
-organizations:
-- name: "CloudBees"
-  github: "cloudbees"
-- name: "Red Hat"
-  github: "RedHatOfficial"
+#organizations:
+#- name: "CloudBees"
+#  github: "cloudbees"
+#- name: "Red Hat"
+#  github: "RedHatOfficial"
 
-links:
-  gitter: "jenkinsci/cloud-native-sig"
-  googlegroup: jenkins-cloud-native-sig
-  meetings: "/sigs/cloud-native/#meetings"
+#links:
+#  gitter: "jenkinsci/cloud-native-sig"
+#  googlegroup: jenkins-cloud-native-sig
+#  meetings: "/sigs/cloud-native/#meetings"
 
 overview: >
+
+  This SIG is currently inactive!
+
   The Cloud Native group of contributors and collaborators focuses on
   improving Jenkins to run on Cloud environments as a "Cloud Native" application.
   The improvements are targeted at both existing and new Jenkins users that use, or would prefer to use,
