@@ -1,0 +1,36 @@
+name: Comment on PRs created from the default branch
+
+on:
+  pull_request_target:
+    types: [ opened ]
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  run:
+    if: ${{ github.repository != github.event.pull_request.head.repo.full_name && github.head_ref == github.event.repository.default_branch }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add notification
+        uses: peter-evans/create-or-update-comment@67dcc547d311b736a8e6c5c236542148a47adc3d # v2.1.1
+        with:
+          issue-number: ${{ github.event.number }}
+          body: |
+            Hey,
+            
+            thanks for creating a pull request (PR). Filing a PR from the default branch is not recommended, and considered a bad practice.
+            Please create a dedicated branch on your fork of this repository, where you commit your changes to.
+            Based on the dedicated branch, please create a new pull request.
+            If you need assistance, visit the [GitHub documentation](https://docs.github.com/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-and-deleting-branches-within-your-repository).
+      - name: Add label
+        uses: actions/github-script@v6
+        with:
+          script: |
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ["branch-equals-default"]
+            })   
