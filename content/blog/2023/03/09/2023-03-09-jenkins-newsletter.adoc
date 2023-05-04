@@ -54,7 +54,7 @@ If you missed the initial meetings, the recordings are below:
 * https://youtu.be/1glzTzCkMvw[February 23, 2023]
 * https://youtu.be/vqMHdAUy85U[February 28, 2023]
 
-Join in on all GSoC discussions in our link:https://app.gitter.im/#/room/#jenkinsci_gsoc-sig:gitter.im[gitter] channel.
+Join in on all GSoC discussions in our link:https://app.gitter.im/\#/room/#jenkinsci_gsoc-sig:gitter.im[gitter] channel.
 
 image:/images/post-images/2023/03/10/2023-03-10-jenkins-newsletter/image3.png[image,width=624,height=360]
 

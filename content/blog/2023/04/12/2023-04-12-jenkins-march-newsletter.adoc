@@ -171,7 +171,7 @@ image:/images/post-images/2023/04/10/2023-04-10-jenkins-newsletter/image5.jpg[im
 
 *Jenkins in Google Summer of Code (GSoC)*
 
-If you lurk on the link:https://app.gitter.im/#/room/#jenkinsci_gsoc-sig:gitter.im[Jenkins GSoC Gitter channel], you will be quite surprised at the level of engagement... It is anything but quiet.
+If you lurk on the link:https://app.gitter.im/\#/room/#jenkinsci_gsoc-sig:gitter.im[Jenkins GSoC Gitter channel], you will be quite surprised at the level of engagement... It is anything but quiet.
 The hustle and bustle indicates the level of interest in Jenkins in GSoC.
 Here’s where we currently stand:
 
